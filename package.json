@@ -1,12 +1,13 @@
 {
   "name": "react-beautiful-hooks",
-  "description": "A collectio",
+  "description": "A collection of beautiful reusable custom react hooks",
   "author": "Prakash Naidu",
   "keywords": [
     "react",
-    "masonry",
-    "masonry-layout",
-    "component"
+    "hooks",
+    "react-hooks",
+    "custom-hooks",
+    "react-custom-hooks"
   ],
   "version": "0.1.4",
   "private": false,
@@ -21,10 +22,7 @@
     "type": "git",
     "url": "https://github.com/naiduprakash/react-beautiful-hooks.git"
   },
-  "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "react-resize-detector": "^6.7.4"
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
@@ -54,7 +52,6 @@
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.13.12",
     "cross-env": "^7.0.3",
-    "faker": "^5.5.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "^4.0.3",
