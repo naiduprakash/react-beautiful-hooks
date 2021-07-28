@@ -1,7 +1,18 @@
 import React from 'react';
 
+import UseBooleanDemo from './demo/useBoolean';
+import UseToggleDemo from './demo/useToggle';
+
+
 function App() {
-  return <div style={styles.container}>react-beautiful-hooks</div>;
+  return (
+    <div>
+      <UseBooleanDemo />
+      <hr />
+      <UseToggleDemo />
+      <hr />
+    </div>
+  );
 }
 
 export default App;
